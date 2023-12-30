@@ -2,6 +2,7 @@ package com.nanoplastorias.learningmod;
 
 import com.mojang.logging.LogUtils;
 import com.nanoplastorias.learningmod.init.BlockInit;
+import com.nanoplastorias.learningmod.init.CreativeTabInit;
 import com.nanoplastorias.learningmod.init.ItemInit;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -23,6 +24,7 @@ public class LearningMod
 
         ItemInit.ITEMS.register(modEventBus);
         BlockInit.BLOCKS.register(modEventBus);
+        CreativeTabInit.TABS.register(modEventBus);
 
         LOGGER.info("LearningMod start successfully");
         MinecraftForge.EVENT_BUS.register(this);
