@@ -1,5 +1,11 @@
 {
   "item.learningmod.lv_circuit" : "Lv Circuit",
   "block.learningmod.steel_block": "Steel Block",
-  "itemGroup.learningmod_tab": "Learning Mod"
+  "itemGroup.learningmod_tab": "Learning Mod",
+  "item.learningmod.steel_sword" : "Steel Sword",
+  "item.learningmod.steel_pickaxe" : "Steel Pickaxe",
+  "item.learningmod.steel_helmet" : "Steel Helmet",
+  "item.learningmod.steel_chestplate" : "Steel Chestplate",
+  "item.learningmod.steel_leggings" : "Steel Leggings",
+  "item.learningmod.steel_boots" : "Steel Boots"
 }

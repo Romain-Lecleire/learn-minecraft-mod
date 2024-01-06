@@ -25,8 +25,8 @@ public class ItemInit {
     public static final RegistryObject<SwordItem> STEEL_SWORD = CreativeTabInit.addToTab(ITEMS.register("steel_sword",
             () -> new SwordItem(
                     TierInit.STEEL_TIERS,
-                    3,
-                    1.6f,
+                    3,        // 0 => 1 attack damage
+                    -2.4f,              // 0 => 4 attack speed
                     new Item.Properties())
     ));
 
@@ -36,7 +36,7 @@ public class ItemInit {
             () -> new PickaxeItem(
                     TierInit.STEEL_TIERS,
                     1,
-                    1.6f,
+                    -2.4f,
                     new Item.Properties())
     ));
 
